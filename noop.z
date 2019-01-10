@@ -1,0 +1,14 @@
+.DATA
+A, 2a
+B, a0
+C, 00
+.CODE
+LDA B
+MAB
+LDA A
+LOP,
+ADD
+SCS
+JMP LOP
+STA C
+HLT
